@@ -14,12 +14,12 @@
 * [Developments](#developments)
 
 ## General info
-• Creating an embedding layer having embedding vectors of user and movie ids.
-• Creating a reasonable scoring function that can capture interactions between users and items.
-• Compute loss between scores and ground truth using mean square error and minimize it.
-• Check decrease on loss by adding a feed-forward neural network stacked to embedding layer and tune the model.
-• Report performance metrics over hyper-parameters.
-• Create a script to recommend any given user to 5 most relevant items
+* Creating an embedding layer having embedding vectors of user and movie ids.
+* Creating a reasonable scoring function that can capture interactions between users and items.
+* Compute loss between scores and ground truth using mean square error and minimize it.
+* Check decrease on loss by adding a feed-forward neural network stacked to embedding layer and tune the model.
+* Report performance metrics over hyper-parameters.
+* Create a script to recommend any given user to 5 most relevant items
 
 ## Project info
 * We tried to build embedding layers for users and movies.
@@ -29,8 +29,7 @@
 * We added activation function as relu and sigmoid. Concat user and movie items.
 * Added dense and dropout layers.
 * Lastly, we normalize out target values and run neural network again for normalized target values.
-* Tried fine tune hyper-parameters trial by error. 
-* Embedded size taken as 50 from Jeremy Howard's fast.ai lessons.
+* Tried fine tune hyper-parameters trial by error. (For example: Embedded size taken as 50 from Jeremy Howard's fast.ai lessons)
 
 
 
@@ -75,13 +74,19 @@ Imports are done in the necessary cells.
 ## Setup
 To run this project, you need data prepation steps after downloading the data. Or you could just get the last part for neural network which is called as "NNmodel". 
 
-## Developments 
-We get a nice result but "model.predict" now working at that moment. Something is wrong with prediction function. It will be fixed.
-Tried fine tuning for hyper-parameters and best possible solution is normalization of target. Maybe accuracy can be more successfull with tuning.
-We can create new embedding layers for timestamps, movie genres etc. 
-We could tune the size of the movie and user embeddings independently.
-With more dense layers we can add more learning capability to model.
+## Further Development Ideas
+* We get a nice result but "model.predict" now working at that moment. Something is wrong with prediction function. It will be fixed.
+* Tried fine tuning for hyper-parameters and best possible solution is normalization of target. Maybe accuracy can be more successfull with tuning.
+* We can create new embedding layers for timestamps, movie genres etc. 
+* We could tune the size of the movie and user embeddings independently.
+* With more dense layers we can add more learning capability to model.
 
 ## References
-* 
+* Deep Learning based Recommender System: A Survey and New Perspectives, Shuai ZHANG, 2017
+* Item-based collaborative filtering recommendation algorithms, Badrul SARWAR, 2001
+* Neural Collaborative Filtering, Xiangnan HE, 2017
+* Jeremy Howard's Fast.Ai lessons
+* https://www.tensorflow.org/
+* https://keras.io/
+* https://developer.nvidia.com/
 
