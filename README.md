@@ -30,7 +30,7 @@
 * Secondly, we created a neural network with Tensorflow.
 * We added activation function as relu and sigmoid. Concat user and movie items.
 * Added dense and dropout layers.
-* Lastly, we normalize out target values and run neural network again for normalized target values.
+* Lastly, we normalize out target values and run neural network again for normalized target values. We get the biggest impact with normalization.
 * Tried fine tune hyper-parameters trial by error. (For example: Embedded size taken as 50 from Jeremy Howard's fast.ai lessons)
 
 ## Dataset info
