@@ -11,7 +11,8 @@
 * [Dataset info](#dataset-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Developments](#developments)
+* [Further Development Ideas](#further-development-ideas)
+* [References](references)
 
 ## General info
 * Creating an embedding layer having embedding vectors of user and movie ids.
