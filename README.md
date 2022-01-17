@@ -76,7 +76,7 @@ Imports are done in the necessary cells.
 To run this project, you need data prepation steps after downloading the data. Or you could just get the last part for neural network which is called as "NNmodel". 
 
 ## Further Development Ideas
-* We get a nice result but "model.predict" now working at that moment. Something is wrong with prediction function. It will be fixed.
+* We nicely get predictions with our model.
 * Tried fine tuning for hyper-parameters and best possible solution is normalization of target. Maybe accuracy can be more successfull with tuning.
 * We can create new embedding layers for timestamps, movie genres etc. 
 * We could tune the size of the movie and user embeddings independently.
