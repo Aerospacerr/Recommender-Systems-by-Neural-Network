@@ -1,4 +1,4 @@
-# Item Based Collaborative Movie Recommendation System
+# Collaborative Movie Recommendation System with Deep Learning
 
 <p align="center">
 	<img src="  " />
