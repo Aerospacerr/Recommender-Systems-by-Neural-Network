@@ -22,6 +22,7 @@
 * Create a script to recommend any given user to 5 most relevant items
 
 ## Project info
+* Project include 4 parts with dataset preparation.
 * We tried to build embedding layers for users and movies.
 * Dataset downloaded automatically, created as pandas dataframe, preprocessed to be used. 
 * Firstly, simply dot production of users and movies have been used to calculate interaction between them.
@@ -30,8 +31,6 @@
 * Added dense and dropout layers.
 * Lastly, we normalize out target values and run neural network again for normalized target values.
 * Tried fine tune hyper-parameters trial by error. (For example: Embedded size taken as 50 from Jeremy Howard's fast.ai lessons)
-
-
 
 ## Dataset info
 Name: MovieLens 1M Dataset 
@@ -72,7 +71,6 @@ Project is created with:
 
 Imports are done in the necessary cells.
 
-	
 ## Setup
 To run this project, you need data prepation steps after downloading the data. Or you could just get the last part for neural network which is called as "NNmodel". 
 
