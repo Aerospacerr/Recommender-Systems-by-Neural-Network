@@ -1,7 +1,7 @@
 # Collaborative Movie Recommendation System with Neural Network
 
 <p align="center">
-	<img src=" https://miro.medium.com/max/1000/1*x8gTiprhLs7zflmEn1UjAQ.png " />
+	<img src=" https://miro.medium.com/max/1000/1*x8gTiprhLs7zflmEn1UjAQ.png " /> 
 
 </p>
 
